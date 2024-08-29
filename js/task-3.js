@@ -1,11 +1,9 @@
-// task-3.js
-
 function checkForSpam(message) {
-    const lowerCaseMessage = message.toLowerCase();
-    return lowerCaseMessage.includes('spam') || lowerCaseMessage.includes('sale');
+    const lowercasedMessage = message.toLowerCase();
+    return lowercasedMessage.includes('spam') || lowercasedMessage.includes('sale');
 }
 
-// Перевірка
+// Перевірка роботи функції
 console.log(checkForSpam("Latest technology news")); // false
 console.log(checkForSpam("JavaScript weekly newsletter")); // false
 console.log(checkForSpam("Get best sale offers now!")); // true

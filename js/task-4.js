@@ -1,5 +1,3 @@
-// Файл: task-4.js
-
 function getShippingCost(country) {
     let price;
 
@@ -23,7 +21,7 @@ function getShippingCost(country) {
     return `Shipping to ${country} will cost ${price} credits`;
 }
 
-// Перевірка
+// Перевірка роботи функції
 console.log(getShippingCost("Australia")); // "Shipping to Australia will cost 170 credits"
 console.log(getShippingCost("Germany")); // "Sorry, there is no delivery to your country"
 console.log(getShippingCost("China")); // "Shipping to China will cost 100 credits"
